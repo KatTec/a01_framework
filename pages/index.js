@@ -15,7 +15,7 @@ export default function Home() {
 
       <Layout>
         <div>
-          Layout-props.Children
+          index.js:Layout-props.Children
         </div>
       </Layout>
 

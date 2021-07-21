@@ -19,7 +19,7 @@ export default function Layout(props) {
 
       <div className="container">
         <h3 className="my-3 text-primary text-center"> {props.title}</h3>
-        <div>props.childrenとしてindex.jsのreturnを返す</div>
+        <div>以下に、props.childrenとしてindex.jsのreturnを返す</div>
         {props.children}
       </div>
 
