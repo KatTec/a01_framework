@@ -3,15 +3,18 @@ import styles from '../styles/Home.module.css'
 import Header from './Header'
 import Footer from './Footer'
 import Table from './table'
+import Nav from './nav'
 
 export default function Layout(props) {
   return (
     <div>
-      <div>-layout.js-</div>
+      <h3>-layout.js-</h3>
       <Head>
         <title>{props.title}</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossOrigin="anonymous"></link>
       </Head>
+
+      <Nav></Nav>
 
       <Header header={props.header} />
 
