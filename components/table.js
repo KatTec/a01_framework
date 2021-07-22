@@ -3,8 +3,9 @@ import Head from 'next/head'
 export default function Table(props){
     return(
         <div>
-            table.js
-            <table className="table">
+          table.js
+          <table className="table">
+            <caption>table.js:caption</caption>
             <thead>
               <tr>
                 <th scope="col">見出しセル</th>
