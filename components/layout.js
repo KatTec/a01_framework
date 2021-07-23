@@ -4,6 +4,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Table from './table'
 import Nav from './nav'
+import Col from './col'
 
 export default function Layout(props) {
   return (
@@ -18,6 +19,8 @@ export default function Layout(props) {
 
       <Header header={props.header} />
 
+      <Col></Col>
+      
       <Table></Table>
 
       <div className="container">
