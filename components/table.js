@@ -4,7 +4,7 @@ export default function Table(props){
     return(
         <div>
           table.js
-          <table className="table">
+          <table className="table table-hover">
             <caption>table.js:caption</caption>
             <thead>
               <tr>
