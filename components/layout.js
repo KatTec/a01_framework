@@ -20,7 +20,8 @@ export default function Layout(props) {
       <Header header={props.header} />
 
       <Col></Col>
-      
+      <hr/>
+
       <Table></Table>
 
       <div className="container">
