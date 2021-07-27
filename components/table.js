@@ -2,8 +2,8 @@ import Head from 'next/head'
 
 export default function Table(props){
     return(
-        <div>
-          table.js
+        <div className="container">
+            <h4>-table.js-</h4>
           <table className="table table-hover">
             <caption>table.js:caption</caption>
             <thead>

@@ -1,7 +1,7 @@
 export default function col(props){
     return(
         <div className="container">
-            <h3 className="text-red">col.js</h3>
+            <h4 className="text-red">-col.js-</h4>
             <div className="row alert-primary">
                 <div className="col">1列目</div>
                 <div className="col">2列目</div>
