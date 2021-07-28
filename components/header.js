@@ -27,8 +27,11 @@ export default function Header(props) {
             </Link>
           </li>
 
-          <li className="nav-item">
-            <a className="nav-link bg-warning" href="#" disable>c無効</a>
+          <li className="nav-item nav-link">
+            {/* <a className="nav-link bg-warning" href="/navCollect" disable>navCollect</a> */}
+            <Link href="/navCollect"> 
+              <a>navCollectはこちら</a>
+            </Link>
           </li>
         </ul>
 
