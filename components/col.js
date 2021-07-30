@@ -23,6 +23,16 @@ export default function col(props){
                 <div className="col-sm-3 bg-primary">col-sm-3</div>
                 <div className="col-sm-3 bg-secondary">col-sm-3</div>
             </div>
+
+            <div class="container">
+                <div class="row alert-primary">
+                    <div class="col">Column</div>
+                    <div class="w-100"></div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                </div>
+            </div>
         </div>
     )
 }
