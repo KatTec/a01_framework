@@ -33,6 +33,16 @@ export default function col(props){
                     <div class="col">Column</div>
                 </div>
             </div>
+
+            <hr/>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6">.col-sm-3 .col-xs-6</div>
+                <div class="col-sm-3 col-xs-6">.col-sm-3 .col-xs-6</div>
+                <div class="col-sm-3 col-xs-6">.col-sm-3 .col-xs-6</div>
+                <div class="col-sm-3 col-xs-6">.col-sm-3 .col-xs-6</div>
+            </div>
+            <hr/>
+            
         </div>
     )
 }
