@@ -22,7 +22,7 @@ export default function Home() {
             </div>
 
             {/* 以下、自前のコンテンツ */}
-            {/* <Col/> */}
+            <Col/>
             <Nav/>
         </Layout>
 
