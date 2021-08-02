@@ -33,6 +33,13 @@ export default function Header(props) {
               <a>navCollectはこちら</a>
             </Link>
           </li>
+
+          <li className="nav-item nav-link">
+            {/* <a className="nav-link bg-warning" href="/###" disable>###</a> */}
+            <Link href="/###"> 
+              <a>###はこちら</a>
+            </Link>
+          </li>
         </ul>
 
       </div>
