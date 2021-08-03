@@ -5,7 +5,7 @@ import Footer from './footer'
 
 export default function Layout(props) {
   return (
-    <div className="container bg-dark">
+    <div className="container">
       <h3>-layout.js-</h3>
       <Head>
         <title>{props.title}</title>
