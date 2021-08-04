@@ -22,6 +22,8 @@ export default function nav(props){
                 </div>
             </div>
 
+            <nav className="navbar navbar-dark">xxx</nav>
+
         </div>
     )
 }
