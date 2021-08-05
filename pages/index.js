@@ -6,6 +6,7 @@ import Layout from '../components/layout'
 import Table from '../components/table'
 import Nav from '../components/nav'
 import Col from '../components/col'
+import Btn from '../components/btn'
 
 
 export default function Home() {
@@ -29,6 +30,8 @@ export default function Home() {
         <Col></Col>
 
         <Table></Table>
+
+        <Btn></Btn>
 
         <footer className={styles.footer}>
           <a
